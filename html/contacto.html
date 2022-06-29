@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Contacto</title>
+<link rel="shortcut icon" href="../imagenes/logo-deportes-amateurs-200x200.png" type="image/x-icon">
+
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+        <header>
+                <div class="imagen__principal">
+                        <img src="../imagenes/bocajuniors.jpg" alt="Boca juniors imagen principal">
+                </div>
+        <nav>
+                <div class="nav__menu">
+                        <div class="escudo__boca">
+                                <img src="../imagenes/logoboca.png" alt="Boca Juniors escudo">
+                        </div>
+
+                        <div class="menu">
+                                <ul class="sub__menu">
+                                        <li><a href="../index.html">Inicio</a></li>
+                                        <li><a href="historia.html">Historia</a></li>
+                                        <li><a href="plantelactual.html">Plantel Actual</a></li>
+                                        <li><a href="labombonera.html">La Bombonera</a></li>
+                                        <li><a href="contacto.html">Contacto</a></li>
+                        </div>
+                </div>
+        </nav>
+        </header>
+
+<main>
+                <h1 class="titulo__contenido">Contacto</h1>
+        <section class="contenedor__formulario">
+                <div class="formulario">
+                        <form action="archivo.php" method="post">
+                                <label for="nombre">Nombre</label>
+                                <input class="controls" type="text" placeholder="Ingrese su nombre" required>
+
+                                <label for="apellido">Apellido</label>
+                                <input class="controls" type="text" placeholder="Ingrese su apellido" required>
+
+                                <label for="nacimiento">Fecha de nacimiento</label>
+                                <input class="controls" type="date">
+
+                                <label for="hombre">Hombre</label>
+                                <input class="controls" type="radio" name="sexo" value="hombre" id="hombre" required>
+
+                                <label for="mujer">Mujer</label>
+                                <input class="controls" type="radio" name="sexo" value="mujer" id="mujer" required>
+
+                                <label for="telefono">Numero de telefono</label>
+                                <input class="controls" type="text" placeholder="Ingrese su telefono" required>
+
+                                <label for="email">Email</label>
+                                <input class="controls" type="email" placeholder="Ingrese su email" required>
+
+                                <label for="mensaje">Mensaje</label>
+                                <textarea class="controls" name="mensaje" id="" cols="30" rows="10" placeholder="ingrese su mensaje" required></textarea>
+
+                                <input type="submit" value="Enviar mensaje">
+                                <input type="reset" value="Borrar">
+                        </form>
+                </div>
+        </section>
+</main>
+
+<footer>
+        <p>Seguinos en nuestras redes sociales:</p>
+                <ul>
+                <li><a href="https://www.facebook.com/BocaJuniors" target="_blank">Facebook</a></li>
+                <li><a href="https://www.instagram.com/bocajrsoficial/" target="_blank">Instagram</a></li>
+                <li><a href="https://twitter.com/BocaJrsOficial" target="_blank">Twitter</a></li>
+                </ul>
+</footer>
+
+</body>
+</html>
